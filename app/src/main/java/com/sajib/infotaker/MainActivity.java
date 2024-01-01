@@ -139,7 +139,6 @@ public class MainActivity extends AppCompatActivity {
 
 
         appDatabase.surveyResponseDao().insertSurveyResponse(surveyResponse);
-
         Toast.makeText(this, "Data saved to database", Toast.LENGTH_SHORT).show();
     }
 
