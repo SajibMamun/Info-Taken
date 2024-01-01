@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="101. Where did you Visit?"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/radioGroupQ101"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:id="@+id/A101id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Upazila Health Complex" />
+
+                        <RadioButton
+                            android:id="@+id/B101id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Union Health and Family Welfare Center" />
+
+                        <RadioButton
+                            android:id="@+id/C101id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Union Sub-Center" />
+
+                        <RadioButton
+                            android:id="@+id/D101id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Community Clinic" />
+
+                        <RadioButton
+                            android:id="@+id/E101id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="EPI Outreach center" />
+
+                        <RadioButton
+                            android:id="@+id/X101id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Others" />
+
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="102. Reason for Visit?"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioGroupQ102">
+
+                        <RadioButton
+                            android:id="@+id/A102id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="E-tracker" />
+
+                        <RadioButton
+                            android:id="@+id/B102id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="E-messsaging" />
+
+                        <RadioButton
+                            android:id="@+id/C102id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="E-Screening checklist" />
+
+                        <RadioButton
+                            android:id="@+id/D102id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Advocy Meeting" />
+
+                        <RadioButton
+                            android:id="@+id/E102id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Strengthen EPI support groups" />
+
+                        <RadioButton
+                            android:id="@+id/F102id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Distribution of BCC Materials" />
+
+                        <RadioButton
+                            android:id="@+id/G102id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Involvement of existing NGO community worker" />
+
+                        <RadioButton
+                            android:id="@+id/H102id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Health education /counseling on EPI through CHCP" />
+
+                        <RadioButton
+                            android:id="@+id/I102id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Modified EPI session" />
+
+                        <RadioButton
+                            android:id="@+id/J102id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="E-Supervision checklist" />
+
+                        <RadioButton
+                            android:id="@+id/K102id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Countyard meeting" />
+
+                        <RadioButton
+                            android:id="@+id/X102id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="other" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="103. Have you meet a service provider?"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioGroupQ103">
+
+                        <RadioButton
+                            android:id="@+id/yes103id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Yes"
+                            android:onClick="YesBtnclicked"
+                            />
+
+                        <RadioButton
+                            android:id="@+id/no103id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No"
+                            android:onClick="NoBtnclicked"/>
+
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/question104id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:visibility="gone"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="104. If Q103 is yes, whom did you meet?"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioGroupQ104">
+
+                        <RadioButton
+                            android:id="@+id/A104id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Upazila Health Complex" />
+
+                        <RadioButton
+                            android:id="@+id/B104id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Union Health and Family Welfare Center" />
+
+                        <RadioButton
+                            android:id="@+id/C104id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Union Sub-Center" />
+
+                        <RadioButton
+                            android:id="@+id/D104id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Community Clinic" />
+
+                        <RadioButton
+                            android:id="@+id/E104id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="EPI Outreach center" />
+
+                        <RadioButton
+                            android:id="@+id/X104id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Others" />
+
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                android:id="@+id/question105cardid"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="105. If Q103 is yes, Write name, designation, union and sub-block "
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Name" />
+
+                        <EditText
+                            android:id="@+id/name105id"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:inputType="text" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Designation" />
+
+                        <EditText
+                            android:id="@+id/designation105id"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:inputType="text" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Union" />
+
+                        <EditText
+                            android:id="@+id/union105id"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:inputType="text" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Sub-block" />
+
+                        <EditText
+                            android:id="@+id/subblock105id"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:inputType="text" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                android:id="@+id/question106cardid"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="106. If Q103 is No, Please explain why did you not meet with a service provider "
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/Noreason106id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text" />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                android:id="@+id/question107cardid"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="107. Name" />
+
+                        <EditText
+                            android:id="@+id/name107id"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:inputType="text" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="108. Phone" />
+
+                        <EditText
+                            android:id="@+id/phone108id"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:inputType="text" />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="109. DOB" />
+
+                        <EditText
+                            android:id="@+id/dob109id"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:inputType="text" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/submitbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="Submit"
+                android:backgroundTint="#009688"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
